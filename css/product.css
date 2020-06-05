@@ -1,0 +1,96 @@
+
+.h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Righteous', cursive;
+}
+
+.Product-header
+{
+    background-image: url(../images/banner-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height:60vh;
+    position: relative;
+    box-shadow: -2px -1px 27px -14px rgba(0,0,0,0.75);
+    
+
+}
+.navbarProduct
+{
+    position: absolute;
+    width:80%;
+    top: 30px;
+    left: 150px;
+    background-color: white !important;
+    color: whitesmoke !important;
+     box-shadow: -2px -1px 27px -14px rgba(0,0,0,0.75);
+    
+     width: 100%;
+}
+.product-heading
+{
+    position: absolute;
+    top: 200px;
+    left: 895px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.aboutProduct
+{
+
+   background-color:  #ecf0f1;
+   height: 100%;
+}
+.right-side-details ul li
+{
+    display: inline;
+    text-decoration: none;
+    /* margin-left: -34px; */
+    
+}
+.right-side-details ul .left-cat
+{
+    margin-left: 0px;
+}
+
+.right-side-details ul .right-cat
+{
+    margin-left: 0px;
+}
+.right-side-details ul li:first-child
+{
+    padding-right: 10px;
+}
+.num
+{
+    width: 60px;
+    margin-left: 10px;
+}
+.btn-product
+{
+    color: white;
+    margin-top: 40px !important;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    transform: rotate(10deg)
+
+}
+.btn-product:hover
+{
+    /* color:#ff6c00;
+    background:white !important; */
+    background: white;
+    color: #ff6c00;
+    border: 1px solid black;
+    transition: all linear 0.5;
+    transform: scaleX(1.1);
+    transform: rotate(1deg)
+    
+    /* width: 150px; */
+}
